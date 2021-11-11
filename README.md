@@ -1,1 +1,2 @@
-# dimension-reduction-ising
+# Dimension Reduction on Ising Model
+
