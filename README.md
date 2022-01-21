@@ -3,13 +3,14 @@
 # PCA - Project
 First project of my research ML and Physics. 
 
-Baseado em Wang 2016 "*Discovering Phase Transitions with Unsupervised Learning*" [[1]](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.94.195105)
+Based on Wang 2016 "*Discovering Phase Transitions with Unsupervised Learning*" [[1]](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.94.195105)
 
 ## Programs List
-- *ising_model_v2.c*      -- Ising Model simulation using Monte Carlo (MC) method;
-- *mc.h*                  -- C library with important MC functions;
-- *preprocessing.ipynb*   -- Jupyter Notebook with preprocessing data, see data;
-- *pca_ising.ipynb*       -- Jupyter Notebook with Ising PCA;
+- *ising_model.c*           -- Ising Model simulation using Monte Carlo (MC) method;
+- *mc.h*                    -- C library with important MC functions;
+- *job.sh*                  -- Bash script example to run a lot of programs at once;          
+- *preprocessing.ipynb*     -- Jupyter Notebook with preprocessing data routine;
+- *pca_ising.ipynb*         -- Jupyter Notebook with Ising PCA;
 
 
 ## Ising Model
