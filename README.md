@@ -61,5 +61,5 @@ Plots dos observáveis relevantes. Nas figs abaixo temos para L80
 
 Magnetização
 
-|<img src=https://github.com/pedhmendes/pca-project/blob/main/plots/ising_ene.png width="500">|<img src=https://github.com/pedhmendes/pca-project/blob/main/plots/ising_mag.png width="500">|
+|<img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_mag_L80.png width="500">|<img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_ene_L80.png width="500">|
 
