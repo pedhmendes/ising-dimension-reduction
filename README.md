@@ -61,3 +61,6 @@ Magnetização
 
 | <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_mag_L80.png width="10500"> | <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_ene_L80.png width="10500"> |
 |-----|-----|
+
+<img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_mag_L80.png>
+<img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_ene_L80.png>
