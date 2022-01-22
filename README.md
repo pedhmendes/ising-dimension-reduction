@@ -57,48 +57,15 @@ Esses resultados tem uma estatística melhor, os observáveis são dados pela m�
 
 Plots dos observáveis relevantes. Nas figs abaixo temos para L80
 
+```{r, echo=FALSE, out.width="50%", fig.cap="A nice image."}
+knitr::include_graphics("https://github.com/pedhmendes/pca-project/blob/main/plots/ising_mag.png")
+```
+
 Magnetização
 ![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_mag.png)
 
 Energia
 
 ![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_ene.png)
-
-Plots de autovetores do PCA do Ising
-
-![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_pca_multi_evals_2.png)
-
-Plots das projeções
-
-![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_pca_components_2.png)
-
-Clusters com o algoritmo Spectral Clustering
-
-![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_clusters_sp_L80.png)
-
-Plots dos observáveis relevantes, porém as cores são dadas pela clusterização do PCA, com algoritmo Spectral Clustering
-
-Magnetização
-
-![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising80_mag_sp_cluster.png)
-
-Energia
-
-![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising80_ene_sp_cluster.png)
-
-Clusters com o algoritmo DBSCAN
-
-![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_clusters_db_L80.png)
-
-Plots dos observáveis relevantes, porém as cores são dadas pela clusterização do PCA, com o algoritmo DBSCAN
-
-Magnetização
-
-![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising80_mag_db_cluster.png)
-
-Energia
-
-![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising80_ene_db_cluster.png)
-
 
 
