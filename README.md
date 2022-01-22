@@ -58,7 +58,7 @@ Esses resultados tem uma estatística melhor, os observáveis são dados pela m�
 Plots dos observáveis relevantes. Nas figs abaixo temos para L80
 
 Magnetização
-![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_mag.png = 500x200)
+![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_mag.png =500x200)
 
 Energia
 
