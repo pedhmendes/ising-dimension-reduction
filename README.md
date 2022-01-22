@@ -31,7 +31,7 @@ Run as showed below
 
   <code>./a.out TEMP</code>
 
-where *TEMP* is the system temperature.
+where ```TEMP``` is the system temperature.
 This is going to make, in the end o simulation, a datafile with this structure
 
   <code>data_TaLbMcEdSe.dat</code>
@@ -57,11 +57,10 @@ Esses resultados tem uma estatística melhor, os observáveis são dados pela m�
 
 Plots dos observáveis relevantes. Nas figs abaixo temos para L80
 
-```{r, echo=FALSE, out.width="50%", fig.cap="A nice image."}
-knitr::include_graphics("https://github.com/pedhmendes/pca-project/blob/main/plots/ising_mag.png")
-```
+
 
 Magnetização
+
 ![](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_mag.png =250x500)
 
 Energia
