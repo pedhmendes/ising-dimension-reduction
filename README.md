@@ -62,10 +62,10 @@ knitr::include_graphics("https://github.com/pedhmendes/pca-project/blob/main/plo
 ```
 
 Magnetização
-![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_mag.png)
+![](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_mag.png =250x500)
 
 Energia
 
-![image](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_ene.png)
+![](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_ene.png =500x250)
 
 
