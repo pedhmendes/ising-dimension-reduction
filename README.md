@@ -67,5 +67,5 @@ Energia
 
 ![](https://github.com/pedhmendes/pca-project/blob/main/plots/ising_ene.png =500x250)
 
-<img src=https://github.com/pedhmendes/pca-project/blob/main/plots/ising_ene.png width="500">
+|<img src=https://github.com/pedhmendes/pca-project/blob/main/plots/ising_ene.png width="500">|<img src=https://github.com/pedhmendes/pca-project/blob/main/plots/ising_mag.png width="500">|
 
