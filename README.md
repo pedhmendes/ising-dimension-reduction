@@ -85,3 +85,17 @@ We can see the plot below where the first is for *Lsize* 20, following *Lsize* 4
 <figure>
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_pca_components.png>
 </figure>
+
+If we plot the temporal series, magnetization and energy, with this color labels we can see somenthing like this
+
+Magnetization
+
+<figure>
+  <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising80_mag_pca_colors_L80.png>
+</figure>
+
+Energy
+
+<figure>
+  <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising80_ene_pca_colors_L80.png>
+</figure>
