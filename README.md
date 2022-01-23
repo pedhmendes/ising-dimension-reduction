@@ -31,7 +31,7 @@ Run as showed below
 where ```TEMP``` is the system temperature.
 This is going to make, in the end o simulation, a datafile with this structure
 
-  <code>data_TaLbMcEdSe.dat</code>
+  <code>data_TxLyMzEiSj.dat</code>
 
 Where the capital letter indicates the observable and the lowercase letter indicates its value.
 The observables are *Temperature*, *Lsize*, *Magnetization*, *Energy* and *Seed*.
