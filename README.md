@@ -34,7 +34,7 @@ Energy
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_ene_L80.png>
 </figure>
 
-Both of these plots are from *Lzise* = 80.
+Both of these plots are from *Lzise* = 80 and the line in *T = 2.269* represents the analytical critical temperature.
 
 ## C Codes and Shell
 ### Compile and Run
@@ -99,3 +99,10 @@ Energy
 <figure>
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising80_ene_pca_colors_L80.png>
 </figure>
+
+
+The energy plot does not say much, but the magnetization does.
+It look like as if we smashed the data points along the critical temperature and then turn around, we would get something like the PCA projections.
+So one can say PCA found that the most significant variation of the data is the magnetization. 
+So magnetization can be used as an indicator of the phase transition.
+
