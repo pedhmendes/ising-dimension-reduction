@@ -79,12 +79,16 @@ The plot below shows the first ten principal components for *Lsizes* equals to 2
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_pca_multi_evals.png>
 </figure>
 
-There is only one principal component, so we plot the projections where the first principal component is the X axis and the second is the Y axis.
+There is only one principal component, so we plot the projections where the first principal component is the X-axis and the second is the Y-axis.
 We can see the plot below where the first is for *Lsize* 20, following *Lsize* 40 in the middle and *Lsize* 80 in the end.
 
 <figure>
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_pca_components.png>
 </figure>
+
+The projections have more variation in the X-axis, the first principal component, than the Y-axis, the second.
+The points are distributed and form three clusters, two of low temperature and one of high temperature.
+Around the origin we can see some fluctuations because the X-value is so low that any variation in the Y-value tends to win over.
 
 If we plot the temporal series, magnetization and energy, with this color labels we can see somenthing like this
 
@@ -106,3 +110,11 @@ It look like as if we smashed the data points along the critical temperature and
 So one can say PCA found that the most significant variation of the data is the magnetization. 
 So magnetization can be used as an indicator of the phase transition.
 
+### Clusterization
+If we fold the projections along the X-axis we obtain this plot
+
+<figure>
+  <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_pca_m_components.png>
+</figure>
+
+Doing this we reduct from three clusters to two, but we only joined together the two low temperature ones.
