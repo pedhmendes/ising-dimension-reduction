@@ -1,8 +1,5 @@
 # Dimension Reduction on Ising Model - PCA
-
-# PCA - Project
 First project of my research in Machine Learning and Physics. 
-
 Based on Wang 2016 "*Discovering Phase Transitions with Unsupervised Learning*" [[1]](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.94.195105)
 
 ## Code List
