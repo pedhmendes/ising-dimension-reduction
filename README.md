@@ -118,3 +118,13 @@ If we fold the projections along the X-axis we obtain this plot
 </figure>
 
 Doing this we reduct from three clusters to two, but we only joined together the two low temperature ones.
+We want to divide this in two clusters, but not only by eye, using clusterization methods available [here](https://scikit-learn.org/stable/modules/clustering.html).
+
+The first one is Spectral Clustering [source](https://scikit-learn.org/stable/modules/clustering.html#spectral-clustering).
+This method requires the number of clusters.
+We want to divide in before and after the critical temperature, so the number of clusters is two.
+Below there can be found the clusterization using Spectral Clustering of the projections of *Lsize* = 80.
+
+<figure>
+  <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_clusters_sp_L80.png>
+</figure>
