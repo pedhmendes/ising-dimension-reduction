@@ -68,11 +68,14 @@ and run as a code
 
 This will create a series of datafiles, as in the data folder, then you can preprocess using the code.
 
-## Resultados
-### Ising 
-Esses resultados tem uma estatística melhor, os observáveis são dados pela média do tempo de análise. Agora tem mais pontos, 13100 pontos (131 T x 100 samples).
+## Results
+### PCA 
+As explained in the paper we need to make a matrix where each row is one system and the columns are the spins sites.
+I did more temperatures than the paper, but the results are similar, the matrix of each *Lsize* can be found in the data folder.
+When you make the PCA the first thing is to look at the number of more important principal components.
+The plot below shows the first ten principal components for *Lsizes* equals to 20, 40 and 80.
 
-Plots dos observáveis relevantes. Nas figs abaixo temos para L80
 
-Magnetização
-
+<figure>
+  <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_pca_multi_evals.png>
+</figure>
