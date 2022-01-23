@@ -26,20 +26,22 @@ Run as showed below
   <code>./a.out TEMP</code>
 
 where ```TEMP``` is the system temperature.
-This is going to make, in the end o simulation, a datafile with this structure
+This is going to generate, in the end of simulation, a datafile with this structure
 
   <code>data_TxLyMzEiSj.dat</code>
 
 Where the capital letter indicates the observable and the lowercase letter indicates its value.
 The observables are *Temperature*, *Lsize*, *Magnetization*, *Energy* and *Seed*.
+Here is one our datafile
 
+  <code>data_T1.600L20M413.515E-848.367S1636479419.dat</code>
 
-To create lots of datafiles one can make a bash script, like the example.
-Then you need to give permisson to run
+To create lots of datafiles one can make a bash script, like the example ```job.sh```.
+Then you need to give permissions to execute
 
   <code>chmod +x job.sh</code>
 
-and run as a code
+and run it as a code
 
   <code>./job.sh</code>
 
@@ -47,14 +49,14 @@ This will create a series of datafiles, as in the data folder, then you can prep
 
 ## Python Notebooks
 Upload in Google Drive and use [Colab](https://colab.research.google.com/) or download [Jupyter](https://jupyter.org/).
-I recommend Colab, you don't have to install anything.
+I recommend colab as you don't need to install anything.
 
 ## Ising Model
 The data are generated with *1e5 MCS* of transient time and *1e6 MCS* of measurement.
 During measurement we generate histograms and determinate the mean.
 The observables are stored in the datafile name.
 
-We simulated 131 temperatures a 100 times each temperature.
+We simulated 131 temperatures a 100 times each.
 The plot of Magnetization and Energy are showed below.
 
 <figure>
@@ -79,17 +81,17 @@ The plot below shows the first ten principal components for *Lsizes* equal to 20
 </figure>
 
 There is only one principal component, so we plot the projections where the first principal component is the X-axis and the second is the Y-axis.
-We can see the plot below where the first one is *Lsize* 20, following *Lsize* 40 in the middle and *Lsize* 80 in the end.
+One can see the plot below where the first one is *Lsize* 20, following *Lsize* 40 in the middle and *Lsize* 80 in the end.
 
 <figure>
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_pca_components.png>
 </figure>
 
-The projections have more variation in the X-axis, the first principal component, than the Y-axis, the second.
+The projections have more variation in the X-axis, the first principal component, than the Y-axis, the second one.
 The points are distributed and form three clusters, two of low temperature and one of high temperature.
 Around the origin we can see some fluctuations because the X-value is so low that any variation in the Y-value tends to win over.
 
-If we plot the time series, magnetization and energy, with this color labels we can see somenthing like this
+Plotting a time series for magnetization and energy, keeping the colormap used above, we find
 
 <figure>
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising80_mag_pca_colors_L80.png>
@@ -98,8 +100,7 @@ If we plot the time series, magnetization and energy, with this color labels we 
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising80_ene_pca_colors_L80.png>
 </figure>
 
-
-The energy plot does not say much, but the magnetization does.
+The energy plot does not say much, the magnetization does.
 It look like as if we smashed the data points along the critical temperature and then turn around, we would get something like the PCA projections.
 So one can say PCA found that the most significant variation of the data is the magnetization. 
 So magnetization can be used as an indicator of the phase transition.
@@ -112,7 +113,7 @@ If we fold the projections along the X-axis we obtain this plot
 </figure>
 
 Doing this we reduct from three clusters to two, but we only joined together the two low temperature ones.
-We want to divide this in two clusters, but not only by eye, using clusterization methods available in the [scikit](https://scikit-learn.org/stable/modules/clustering.html) lib.
+As we want to keep only two clusters, instead of setting them up by hand, we used clusterization methods available in the [scikit](https://scikit-learn.org/stable/modules/clustering.html) lib.
 
 The first one is [Spectral Clustering](https://scikit-learn.org/stable/modules/clustering.html#spectral-clustering).
 This method requires the number of clusters.
