@@ -3,7 +3,7 @@
 # PCA - Project
 First project of my research in Machine Learning and Physics. 
 
-Based on Wang 2016 "*Discovering Phase Transitions with Unsupervised Learning*" [source](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.94.195105)
+Based on Wang 2016 "*Discovering Phase Transitions with Unsupervised Learning*" [[1]](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.94.195105)
 
 ## Code List
 - *ising_model.c*           -- Ising Model simulation using Monte Carlo (MC) method;
@@ -108,9 +108,9 @@ If we fold the projections along the X-axis we obtain this plot
 </figure>
 
 Doing this we reduct from three clusters to two, but we only joined together the two low temperature ones.
-We want to divide this in two clusters, but not only by eye, using clusterization methods available [here](https://scikit-learn.org/stable/modules/clustering.html).
+We want to divide this in two clusters, but not only by eye, using clusterization methods available in the [scikit](https://scikit-learn.org/stable/modules/clustering.html) lib.
 
-The first one is Spectral Clustering [source](https://scikit-learn.org/stable/modules/clustering.html#spectral-clustering).
+The first one is [Spectral Clustering](https://scikit-learn.org/stable/modules/clustering.html#spectral-clustering).
 This method requires the number of clusters.
 We want to divide in before and after the critical temperature, so the number of clusters is two.
 Below is the clusterization plot using Spectral Clustering of the projections of *Lsize* = 80.
@@ -128,7 +128,7 @@ and plotting the magnetization with this color labels
 The two clusters do represent the phase transition, but there are some mixture when we are near the critical temperature.
 We can also try different clusterization method, where we do not say the number of clusters, for example DBSCAN.
 
-The DBSCAN [source](https://scikit-learn.org/stable/modules/clustering.html#dbscan) method is based on Spectral Clustering, but it does contain noise.
+The [DBSCAN](https://scikit-learn.org/stable/modules/clustering.html#dbscan) method is based on Spectral Clustering, but it does contain noise.
 This methos requires the *eps*, maximum distance between two points for one to be in the cluster of the other, and *min_samples*, the minimum number of point to be considered a cluster.
 Here we used *eps* = 0.3 and *min_samples* = 65.
 Below is the clusterization plot using DBSCAN of the projections of *Lsize* = 80.
