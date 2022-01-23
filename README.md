@@ -79,7 +79,7 @@ The plot below shows the first ten principal components for *Lsizes* equals to 2
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_pca_multi_evals.png>
 </figure>
 
-There is only one principal component, so we plot the projections where th first principal component is in the X axis and the second in the Y axis.
+There is only one principal component, so we plot the projections where the first principal component is the X axis and the second is the Y axis.
 We can see the plot below where the first is for *Lsize* 20, following *Lsize* 40 in the middle and *Lsize* 80 in the end.
 
 <figure>
