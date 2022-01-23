@@ -34,7 +34,7 @@ Energy
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_ene_L80.png>
 </figure>
 
-Both of these plots are from *Lzise = 80*.
+Both of these plots are from *Lzise* = 80.
 
 ## C Codes and Shell
 ### Compile and Run
@@ -79,4 +79,9 @@ The plot below shows the first ten principal components for *Lsizes* equals to 2
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_pca_multi_evals.png>
 </figure>
 
+There is only one principal component, so we plot the first principal component in the X axis and the second in the Y axis.
+We can see the plot below where the first is for *Lsize* 20, following *Lsize* 40 in the middle and in the end *Lsize* 80.
 
+<figure>
+  <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_pca_components.png>
+</figure>
