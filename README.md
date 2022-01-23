@@ -27,9 +27,11 @@ The plot of Magnetization and Energy are showed below.
   <figcaption>Fig.1 - Magnetization.</figcaption>
 </figure>
 
+
+
 <figure>
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_ene_L80.png>
-  <figcaption>Fig.1 - Magnetization.</figcaption>
+  <figcaption>Fig.2 - Energy.</figcaption>
 </figure>
 
 
