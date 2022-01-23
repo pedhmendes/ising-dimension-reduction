@@ -22,16 +22,16 @@ The observables are stored in the datafile name.
 I simulated 131 temperatures a 100 times each temperature.
 The plot of Magnetization and Energy are showed below.
 
+Magnetization
+
 <figure>
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_mag_L80.png>
-  <figcaption>Fig.1 - Magnetization.</figcaption>
 </figure>
 
-
+Energy
 
 <figure>
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_ene_L80.png>
-  <figcaption>Fig.2 - Energy.</figcaption>
 </figure>
 
 
