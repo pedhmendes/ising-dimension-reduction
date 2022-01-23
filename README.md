@@ -164,3 +164,4 @@ Note that network configuration is not considered, only the raw data of the spin
 ### Clusterization
 In the clusterization we only confirmed what we saw in the PCA projections.
 There are two clusters and they divide very well the data, with some flunctuation points.
+
