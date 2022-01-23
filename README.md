@@ -34,6 +34,7 @@ Energy
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_ene_L80.png>
 </figure>
 
+Both of these plots are from *Lzise = 80*.
 
 ## C Codes and Shell
 ### Compile and Run
