@@ -141,5 +141,8 @@ and plotting the magnetization with this color labels
 
 <figure>
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising80_mag_db_cluster.png>
-</figure
-  
+</figure>
+
+Here we can see three clusters, where one is the noise.
+There is the low and high temperature clearly divided, and the noise data around the critical temperature, where is required more numerical precision.
+Some points much more after the critical temperature classified as noise, this is the same reason as in the projections: the X-value is low, and a small variation in Y-value send then to other cluster.
