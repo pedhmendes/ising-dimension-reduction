@@ -12,24 +12,9 @@ Based on Wang 2016 "*Discovering Phase Transitions with Unsupervised Learning*" 
 - *preprocessing.ipynb*     -- Jupyter Notebook with preprocessing data routine;
 - *pca_ising.ipynb*         -- Jupyter Notebook with Ising PCA;
 
-
-## Ising Model
-
-The data are generate with *1e5 MCS* of transient time and *1e6 MCS* of measurement.
-In measurement time are generated histograms and in the end we get the mean.
-The observables are stored in the datafile name.
-
-I simulated 131 temperatures a 100 times each temperature.
-The plot of Magnetization and Energy are showed below.
-
-<figure>
-  <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_mag_L80.png>
-</figure>
-<figure>
-  <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_ene_L80.png>
-</figure>
-
-Both of these plots are from *Lzise* = 80 and the line in *T = 2.269* represents the analytical critical temperature.
+## Archives List
+- *data*                    -- All data used in *.rar* files;
+- *plots*                   -- All plots;
 
 ## C Codes and Shell
 ### Compile and Run
@@ -62,6 +47,28 @@ and run as a code
   <code>./job.sh</code>
 
 This will create a series of datafiles, as in the data folder, then you can preprocess using the code.
+
+## Python Notebooks
+Upload in Google Drive and use [Colab](https://colab.research.google.com/) or download [Jupyter](https://jupyter.org/).
+I recommend Colab, you don't have to install anything.
+
+## Ising Model
+The data are generate with *1e5 MCS* of transient time and *1e6 MCS* of measurement.
+In measurement time are generated histograms and in the end we get the mean.
+The observables are stored in the datafile name.
+
+I simulated 131 temperatures a 100 times each temperature.
+The plot of Magnetization and Energy are showed below.
+
+<figure>
+  <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_mag_L80.png>
+</figure>
+<figure>
+  <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_ene_L80.png>
+</figure>
+
+Both of these plots are from *Lzise* = 80 and the line in *T = 2.269* represents the analytical critical temperature.
+
 
 ## Results
 ### PCA 
@@ -146,3 +153,14 @@ and plotting the magnetization with this color labels
 Here we can see three clusters, where one is the noise.
 There is the low and high temperature clearly divided, and the noise data around the critical temperature, where is required more numerical precision.
 Some points much more after the critical temperature classified as noise, this is the same reason as in the projections: the X-value is low, and a small variation in Y-value send then to other cluster.
+
+## Conclusions
+### PCA
+PCA reduces our dimentionality, we started with a matrix of *Nsamples x (LxL)* and ended with one two vectors.
+We also found that when reducing the dimension the more importante feature of Ising Model, by PCA analysis, is magnetization.
+Looking only to the projections we can see the phase transition, because the data points are arranged along the axis in a unique way, this is confirmed by cluster analysis.
+Note that network configuration is not considered, only the raw data of the spins, thus this method works irrespective of network configuration.
+
+### Clusterization
+In the clusterization we only confirmed what we saw in the PCA projections.
+There are two clusters and they divide very well the data, with some flunctuation points.
