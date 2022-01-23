@@ -75,7 +75,8 @@ I did more temperatures than the paper, but the results are similar, the matrix 
 When you make the PCA the first thing is to look at the number of more important principal components.
 The plot below shows the first ten principal components for *Lsizes* equals to 20, 40 and 80.
 
-
 <figure>
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_pca_multi_evals.png>
 </figure>
+
+
