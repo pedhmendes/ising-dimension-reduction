@@ -37,7 +37,7 @@ Where the capital letter indicates the observable and the lowercase letter indic
 The observables are *Temperature*, *Lsize*, *Magnetization*, *Energy* and *Seed*.
 
 
-To create lots of datafiles one can do a bash script, like the example.
+To create lots of datafiles one can make a bash script, like the example.
 Then you need to give permisson to run
 
   <code>chmod +x job.sh</code>
@@ -53,11 +53,11 @@ Upload in Google Drive and use [Colab](https://colab.research.google.com/) or do
 I recommend Colab, you don't have to install anything.
 
 ## Ising Model
-The data are generate with *1e5 MCS* of transient time and *1e6 MCS* of measurement.
-In measurement time are generated histograms and in the end we get the mean.
+The data are generated with *1e5 MCS* of transient time and *1e6 MCS* of measurement.
+During measurement we generate histograms and determinate the mean.
 The observables are stored in the datafile name.
 
-I simulated 131 temperatures a 100 times each temperature.
+We simulated 131 temperatures a 100 times each temperature.
 The plot of Magnetization and Energy are showed below.
 
 <figure>
@@ -73,16 +73,16 @@ Both of these plots are from *Lzise* = 80 and the line in *T = 2.269* represents
 ## Results
 ### PCA 
 As explained in the paper we need to make a matrix where each row is one system and the columns are the spins sites.
-I did more temperatures than the paper, but the results are similar, the matrix of each *Lsize* can be found in the data folder.
-When you make the PCA the first thing is to look at the number of more important principal components.
-The plot below shows the first ten principal components for *Lsizes* equals to 20, 40 and 80.
+We did more temperatures than Wang's paper, but the results are similar, the matrix of each *Lsize* can be found in the data folder.
+After using PCA, the next thing is to check for the number of more important principal components.
+The plot below shows the first ten principal components for *Lsizes* equal to 20, 40 and 80.
 
 <figure>
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_pca_multi_evals.png>
 </figure>
 
 There is only one principal component, so we plot the projections where the first principal component is the X-axis and the second is the Y-axis.
-We can see the plot below where the first is for *Lsize* 20, following *Lsize* 40 in the middle and *Lsize* 80 in the end.
+We can see the plot below where the first one is *Lsize* 20, following *Lsize* 40 in the middle and *Lsize* 80 in the end.
 
 <figure>
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_pca_components.png>
@@ -92,7 +92,7 @@ The projections have more variation in the X-axis, the first principal component
 The points are distributed and form three clusters, two of low temperature and one of high temperature.
 Around the origin we can see some fluctuations because the X-value is so low that any variation in the Y-value tends to win over.
 
-If we plot the temporal series, magnetization and energy, with this color labels we can see somenthing like this
+If we plot the time series, magnetization and energy, with this color labels we can see somenthing like this
 
 <figure>
   <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising80_mag_pca_colors_L80.png>
