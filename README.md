@@ -19,6 +19,20 @@ The data are generate with *1e5 MCS* of transient time and *1e6 MCS* of measurem
 In measurement time are generated histograms and in the end we get the mean.
 The observables are stored in the datafile name.
 
+I simulated 131 temperatures a 100 times each temperature.
+The plot of Magnetization and Energy are showed below.
+
+<figure>
+  <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_mag_L80.png>
+  <figcaption>Fig.1 - Magnetization.</figcaption>
+</figure>
+
+<figure>
+  <img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_ene_L80.png>
+  <figcaption>Fig.1 - Magnetization.</figcaption>
+</figure>
+
+
 ## C Codes and Shell
 ### Compile and Run
 
@@ -59,5 +73,3 @@ Plots dos observáveis relevantes. Nas figs abaixo temos para L80
 
 Magnetização
 
-<img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_mag_L80.png>
-<img src=https://github.com/pedhmendes/ising-dimension-reduction/blob/main/plots/ising_ene_L80.png>
