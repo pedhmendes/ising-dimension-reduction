@@ -164,4 +164,4 @@ In the clusterization we only confirmed what we saw in the PCA projections.
 There are two clusters and they divide very well the data, with some flunctuation points.
 
 ### Presentation
-I did a presentation video for [SIC 2022](https://www.ufrgs.br/salaoufrgs/). You can find the youtube link in this [link](). The presentation file, abstract and the latex project can be found as well. The video and the presentation files are in portuguese.
+I did a presentation video for [SIC 2022](https://www.ufrgs.br/salaoufrgs/). You can find the youtube link in this [link](https://youtu.be/lRmz5UOas3s). The presentation file, abstract and the latex project can be found as well. The video and the presentation files are in portuguese.
